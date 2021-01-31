@@ -1,0 +1,90 @@
+@media screen and (max-width: 561px){
+
+    body {
+        width: 100vh;
+    }
+
+    .main {
+        width: 100%;
+    }    
+
+    .home-img {
+        display: none;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .home-content {
+        flex-direction: column;
+        margin: 65px 30px 23px;
+    }
+
+    .content_about_me {
+        margin: 154px 30px 76px;
+
+    }
+
+     .home-img-media {
+        display: block;
+        width: 100%;
+        }
+
+    .programs {
+        flex-direction: column;
+    }
+
+    .prog {
+        align-items: center;
+    }
+
+    
+    .portfolio-img, .portfolio-img img{
+        width: 812px;
+    }
+
+    .home-img-media img{
+        margin: 36px 30px 100px;
+    }
+
+    .name {
+        font-size: 75px;
+        line-height: 85px;
+    }
+
+    .about-me{
+        width: 300px;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .content_about_me, .content_skills, .content_portfolio, .content_contact, .social_like{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        margin-right: 30px;
+
+    }
+
+    .content_about_me p, .content_skills p, .content_portfolio p, .content_contact p, .social_like p {
+        width: 75%;
+        font-size: 30px;
+        line-height: 40px;
+        font-weight: 600;
+    }
+
+    .prog_logo  {
+        left: -3px;
+    }
+
+    .prog {
+        margin-bottom: 100px;
+    }
+
+    .button p {
+        width: 34%;
+    }
+
+}
